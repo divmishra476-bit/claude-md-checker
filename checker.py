@@ -1,11 +1,10 @@
-import re
 import sys
 
 MAX_LINES = 200
 VAGUE = ["write good code", "be careful", "best practices", "clean code",
          "high quality", "make sure it works", "be smart"]
 SECTIONS = {
-    "commands (build/test/run)": ["npm ", "pytest", "make ", "pip ", "cargo ", "run "],
+    "commands (build/test/run)": ["npm run", "npm test", "pytest", "make ", "pip install", "cargo ", "python "],
     "code style": ["style", "naming", "format", "convention"],
     "project structure": ["structure", "directory", "folder", "architecture"],
 }
